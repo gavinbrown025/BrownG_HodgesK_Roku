@@ -1,0 +1,31 @@
+
+.landing-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+#login-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    input {
+        margin:.5rem 0;
+        padding: 1rem .5rem;
+    }
+
+    p{font-size: 1.2rem;}
+    span{font-weight: 700; cursor: pointer;}
+}
