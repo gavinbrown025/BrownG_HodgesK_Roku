@@ -6,7 +6,9 @@ For the first check-in we have added a PDF in the includes folder that contains 
 
 The projet setup has begun and research & development, as well as testing is underway.
 Our roadmap is in the Google Doc's link below.
-https://docs.google.com/document/d/1jOAbZyW0flxhGkXcPXWpiAXHSI4JuI8e0bxgU0gRqKM/edit?usp=sharing
+https://docs.google.com/document/d/1jOAbZyW0flxhGkXcPXWpiAXHSI4JuI8e0bxgU0gRqKM/edit?usp=sharing <br>
+And XD Prototype:
+https://xd.adobe.com/view/177c0f2a-e9e9-4773-a0b1-fa970e1e6337-422f/
 
 ## Authors
 Gavin Brown
