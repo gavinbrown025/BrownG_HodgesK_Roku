@@ -1,3 +1,5 @@
+import { fetchData } from "./components/DataMiner.js"; 
+
 (() => {
 
     let vue_vm = new Vue({
@@ -8,14 +10,9 @@
 
         mounted: function () {
             
-            // fetchData("./includes/index.php")
-            //     .then(data => {
-            //         data.forEach(project => {
-            //             this.projects.push(project);
-            //         });
-            //     })
-            //     .catch(err => console.error(err));
-
+            fetchData("./includes/index.php")
+                .then(data => {console.log(data);})
+                .catch(err => console.error(err));
         },
 
         updated: function () {},
