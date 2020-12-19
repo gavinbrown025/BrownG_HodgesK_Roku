@@ -4,16 +4,34 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title></title>
+	<title>ROKU | Flashback</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/master.css">
 	<!--[if lt IE 9]><script src="js/htm5shiv.js"></script><[end if]-->
 </head>
 <body>
-
-
-
-
+	<main class="landing-wrapper" id="app">
+		<header>
+			<img src="images/roku-logo.png" alt="Roku Logo">
+			<div class="kabab-menu">
+				<div class="k-dot"></div>
+				<div class="k-dot"></div>
+				<div class="k-dot"></div>
+			</div>
+		</header>
+		<section id="login-con">
+			<form action="" method="GET" id="login-form">
+				<h2>Log in with your email</h2>
+				<input type="email" id="email" name="email" placeholder="Email" required>
+				<input type="password" id="password" name="password" placeholder="Password" required>
+				<a @click.prevent="submitLogin" href="#" class="button">CONTINUE</a>
+				<P>New to ROKU? <span @click="showSignUp"> Sign Up</span></P>
+			</form>
+		</section>
+	</main>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

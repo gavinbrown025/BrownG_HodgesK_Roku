@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    font-family: 'Nunito', sans-serif;
+    // font-size: $text-size;
+    color: white;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+main {
+    background-color:darkslateblue;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 2400px;
+    overflow-x: hidden;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+textarea{resize: none;}
+
+
+.hidden {display: none;}
+
+
+.button {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 2px;
+}
+
+input {
+    font-size: 1.2rem;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+}
