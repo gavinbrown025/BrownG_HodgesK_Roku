@@ -16,11 +16,6 @@ async function fetchData(sourceURL) {
 
     let dataset = await resource.json();
 
-    //  for (let object in dataset[0]) {
-    //      dataset[0][object].media = dataset[0][object].media.split(",");
-    //      dataset[0][object].languages = dataset[0][object].languages.split(",");    
-    //  }
-
     return dataset[0];
 }
 
